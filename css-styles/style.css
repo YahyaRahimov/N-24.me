@@ -35,10 +35,86 @@ body {
   background-color: #F6F6F6;
 }
 
-.site-header-content {
+.site-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.site-footer-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.site-header-content {
+  display: flex;
+  align-items: center;
+}
+
+.currency {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.currency:not(:last-child) {
+  margin-left: 35px;
+  margin-right: 25px;
+}
+
+.site-header-right {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border-radius: 60px;
+  width: 275px;
+  padding: 15px;
+  height: 45px;
+  border: none;
+  margin-right: 25px;
+}
+
+.buttons {
+  display: flex;
+  background: #DCE6FF;
+  border-radius: 39px;
+  width: 70px;
+  height: 36px;
+  margin-right: 25px;
+  text-align: center;
+
+}
+
+button:not(:last-child){
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+}
+
+button:last-child {
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.main-link {
+  background: #7296EC;
+  border-radius: 10px;
+  padding: 13px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .site-name {
