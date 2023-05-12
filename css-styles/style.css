@@ -180,7 +180,7 @@ main {
 
 /* HERO-SECTION */
 .hero-container {
-
+  margin-bottom: 60px;
 }
 
 .hero-content-link {
@@ -194,6 +194,7 @@ main {
   padding: 0;
   margin-left: -10px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .hero-list-item {
@@ -245,6 +246,129 @@ main {
   font-size: 12px;
   line-height: 14px;
   color: #5E5F61;
+  margin: 0;
+}
+
+
+  /* INVITE - SECTION */
+.invite-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+/* WORLD - NEWS - SECTION */
+
+.new-right-side-container {
+  display: flex;
+}
+
+.new-right-side-container {
+
+}
+
+.news {
+  margin-bottom: 100px;
+}
+
+.news-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  margin-bottom: 34px;
+}
+
+.news-item {
+  display: flex;
+  flex-grow: 1;
+  width: 797px;
+  background: #F6F6F6;
+  border-radius: 15px;
+  padding: 20px 17px;
+  margin-bottom: 10px;
+}
+
+
+.news-item-img {
+  margin-right: 15px;
+}
+
+.news-content-heading {
+  width: 535px;
+  margin-right: 0;
+}
+
+.news-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #EAEAEA;
+  padding: 17px 343px;
+  border-radius: 10px;
+}
+
+.news-button:hover {
+  cursor: pointer;
+  background-color:#D2D2D2 ;
+}
+
+.news-button:active {
+  opacity: 0.8;
+}
+
+.news-right-side {
+
+}
+.news-right-side-content {
+}
+.news-right-side-list {
+  background: #F6F6F6;
+  width: 393px;
+  height: 502px;
+  list-style: none;
+  border-radius: 15px;
+  padding: 20px 17px 25px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.news-right-side-item {
+  border-bottom: 1px solid #D2D2D2;
+  margin-bottom: 20px;
+}
+
+.news-right-side-item:last-child {
+  border: none;
+}
+
+.news-right-side-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.news-right-side-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.news-right-side-info {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 
