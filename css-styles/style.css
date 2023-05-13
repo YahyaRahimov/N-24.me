@@ -41,12 +41,6 @@ body {
   align-items: center;
 }
 
-.site-footer-container {
-  display: flex;
-  justify-content: space-between;
-
-}
-
 .site-header-content {
   display: flex;
   align-items: center;
@@ -110,6 +104,7 @@ button:last-child {
 
 .main-link {
   background: #7296EC;
+  border: 2px solid #7296EC;
   border-radius: 10px;
   padding: 13px 20px;
   font-weight: 500;
@@ -117,6 +112,18 @@ button:last-child {
   line-height: 19px;
   color: #fff;
   text-decoration: none;
+  transition: color 0.4s ease, background-color 0.4s ease;
+}
+
+.main-link:hover {
+  border: 2px solid #7296EC;
+  background-color:transparent;
+  color: #000;
+}
+
+.main-link:active {
+  background-color: #7295eea5;
+  opacity: 0.7;
 }
 
 .site-name {
@@ -375,13 +382,89 @@ main {
 /* SITE-FOOTER */
 .site-footer {
   background-color: #7297EF;
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
-
+  color: #fff;
 }
 
 .site-footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.site-footer-wrapper {
+  width: 999px;
+}
+
+.site-name-footer {
+  display: inline-block;
+  margin-bottom: 15px;
+
+}
+
+.site-footer-texts {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #CECECE;
+  margin-bottom: 20px;
+}
+
+.site-footer-info {
+  width: 229px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0;
+}
+
+.site-footer-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.site-footer-item {
+  margin-bottom: 20px;
+}
+
+.site-footer-item:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer-social-text {
+  width: 161px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0;
+}
+
+.footer-social-part {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+
+.socials-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-item {
+  margin-right: 25px;
+}
+
+.social-item:last-child {
+  margin-right: 0;
 }
