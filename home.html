@@ -12,15 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- CSS-STYLES -->
-  <link rel="stylesheet" href="css-styles/normalize.css">
-  <link rel="stylesheet" href="css-styles/style.css">
+  <link rel="stylesheet" href="normalize(home).css">
+  <link rel="stylesheet" href="home-style.css">
 </head>
 
 <body>
     <header class="site-header">
       <div class="site-header-container container">
         <div class="site-header-content">
-          <a class="site-name" href="index.html">NAMANGANLIKLAR 24</a>
+          <a class="site-name" href="home.html">NAMANGANLIKLAR 24</a>
           <p class="currency">$ 10137.2</p>
           <p class="currency">P 138.26</p>
         </div>
@@ -44,8 +44,8 @@
     <main>
       <div class="container">
           <ul class="site-nav">
-            <li class="site-nav-item"> <a class="site-nav-link" href="#">Главное</a>  </li>
-            <li class="site-nav-item"> <a  class="site-nav-link" href="#">Интересное</a>  </li>
+            <li class="site-nav-item"> <a class="site-nav-link" href="home.html">Главное</a>  </li>
+            <li class="site-nav-item"> <a class="site-nav-link" href="list.html">Интересное</a> </li>
             <li class="site-nav-item"> <a  class="site-nav-link" href="#">Экономика</a> </li>
             <li class="site-nav-item"> <a  class="site-nav-link" href="#">Политика</a>  </li>
             <li class="site-nav-item"> <a  class="site-nav-link" href="#">Общество</a>  </li>
@@ -58,11 +58,13 @@
       </div>
       <!-- REKLAMA-BANNER -->
       <div class="container">
-        <a href="#">
+        <a class="hero-reklama" href="#">
           <img class="rek-img" src="img/optimize.jpg" alt="REKLAMA" width="1200" height="128"
           srcset="img/optimize.jpg 1x, img/optimize@2x.jpg 2x">
         </a>
       </div>
+
+
       <!-- HERO-SECTIONS -->
       <div class="hero-container container">
         <section class="hero">
@@ -151,15 +153,21 @@
 
         <!-- INVITE - SECTION -->
         <div class="invite-container container">
-          <img src="img/group.jpg" alt="invite-part" width="1050" height="100" >
+          <img src="img/group.jpg" alt="invite-part" width="1050" height="100">
         </div>
 
+          <div class="part-turn-on-container container">
+            <span class="part-turn-on">
+              <h3 class="turn-on-heading">Хотите быть в курсе свежих новостей?  Включите уведомления!</h3>
+              <a class="turn-on" href="#">Включить </a>
+            </span>
+          </div>
+
+        <!-- WORLD - NEWS -SECTION -->
         <div class="container">
           <h2 class="news-heading">В мире</h2>
         </div>
 
-
-        <!-- WORLD - NEWS -SECTION -->
       <div class="new-right-side-container container">
       <section class="news">
         <ul class="news-list">
@@ -216,7 +224,7 @@
             </div>
           </li>
         </ul>
-        <a class="news-button">Показать ещё </a>
+        <a class="news-button" href="list.html">Показать ещё</a>
       </section>
 
       <section class="news-right-side">
@@ -250,11 +258,10 @@
       </section>
     </div>
 
-    <div class="container">
-
-    </div>
   </main>
 
+
+  <!-- SIT-FOOTER -->
   <footer class="site-footer">
     <div class="site-footer-container container">
         <div class="site-footer-wrapper">
